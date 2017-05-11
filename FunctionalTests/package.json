@@ -1,0 +1,16 @@
+{
+  "name": "myjourney-functionaltests",
+  "version": "1.0.0",
+  "description": "MyJourney FunctionalTests",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "echo 'Please authorize use of the simulator:' && sudo authorize-ios",
+    "start": "appium"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "appium": "^1.6.0",
+    "authorize-ios": "^1.0.4"
+  }
+}

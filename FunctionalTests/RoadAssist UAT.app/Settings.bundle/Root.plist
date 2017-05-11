@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Environment</string>
+			<key>Key</key>
+			<string>myjourney_environment</string>
+			<key>DefaultValue</key>
+			<string>UAT</string>
+			<key>Titles</key>
+			<array>
+				<string>UAT</string>
+				<string>Preprod</string>
+				<string>Prod</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>UAT</string>
+				<string>Preprod</string>
+				<string>Prod</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

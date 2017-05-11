@@ -1,0 +1,6 @@
+[caps]
+platformName = "iOS"
+platformVersion = "9.1"
+app = "./RoadAssist UAT.app"
+deviceName = "iPhone 6"
+autoAcceptAlerts = true
